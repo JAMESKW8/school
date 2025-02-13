@@ -1,0 +1,16 @@
+#every time we add a new node it will become the first node in the linked list
+
+
+
+DECLARE linked_list_pointer : ARRAY [0:10] OF INTEGER
+DECLARE linked_list_data : ARRAY [0:10] OF INTEGER
+DECLARE heappointer, startpointer: INTEGER
+heappointer <- 0
+startpointer <- -1
+
+FOR i <- 1 TO 10 
+linked_list_pointer[i] = i 
+NEXT i
+
+linked_list_pointer[10] = -1 
+

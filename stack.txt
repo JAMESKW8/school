@@ -1,0 +1,9 @@
+#Stack is LIFO
+
+#installing array means declaring
+#top points to the top element of the stack
+
+#DECLARE StackArr = Array [0:9] OF INTEGER
+#Base <- 0
+#Full <- 7
+#Top <- -1
